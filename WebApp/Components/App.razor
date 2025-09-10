@@ -4,9 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A fitness tracker showcase app to monitor and visualize daily activities, diet, and fasting, helping you track and improve your fitness and health stats." />
+    <title>Fitness Tracker - Syncfusion Blazor Components Showcase App</title>
     <base href="/" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+@{#if Release}
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link href="css/assets/profile.min.css" rel="stylesheet" />
+    <link href="css/app.min.css" rel="stylesheet" />
+@{#else}
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/assets/profile.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
+@{#endif}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link id="theme" href="_content/Syncfusion.Blazor.Themes/tailwind.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
@@ -32,7 +42,7 @@
                     var iconSpan = document.createElement('span');
                     iconSpan.className = 'e-tab-header-icon icon-Logo';
                     iconDiv.appendChild(iconSpan);
-                    var titleDiv = document.createElement('div');
+                    var titleDiv = document.createElement('h1');
                     titleDiv.className = 'e-tab-title';
                     titleDiv.innerHTML = 'GO<span>FIT</span>';
                     var containerDiv = document.createElement('div');
