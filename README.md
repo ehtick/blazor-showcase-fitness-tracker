@@ -7,7 +7,7 @@ To demonstrate a dashboard that contains a user's fitness tracking details, prim
 
 * [System requirements](https://blazor.syncfusion.com/documentation/system-requirements/)
 
-* [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+* [.NET 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
 ## How to run the demo
 
@@ -19,7 +19,7 @@ Clone the repository.This repository contains Blazor Fitness Tracker Server app.
 * Open the command prompt from the demo's directory.
 * Run the demo using the following command.
    
-   To run .NET 8 Fitness Tracker Server project
+   To run .NET 10 Fitness Tracker Server project
    > `dotnet run --project WebApp/FitnessTracker.sln`
 
 
